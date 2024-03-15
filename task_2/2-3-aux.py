@@ -18,3 +18,4 @@ GPIO.output(leds, 1)
 
 GPIO.output(leds, 0)
 GPIO.cleanup()
+
