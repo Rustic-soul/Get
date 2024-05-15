@@ -4,8 +4,8 @@ from textwrap import wrap
 
 # Раздел с параметрами графика
 width_graph   = 16
-hight_graph   = 10
-dpi_graph     = 200
+hight_graph   = 9
+dpi_graph     = 400
 max_len_title = 50
 
 title = "Процесс заряда и разряда конденсатора в RC-цепочке"
@@ -54,11 +54,11 @@ fig, ax = plt.subplots(figsize=(width_graph, hight_graph), dpi=dpi_graph)
 ax.plot(time_array, data_array,
         linestyle="-",
         linewidth=2,
-        color="#ac3b61",
+        color="#fc3a32",
         label="V(t)",
         marker="o",
-        markerfacecolor="#123c69",
-        markeredgecolor="#123c69",
+        markerfacecolor="#e23d11",
+        markeredgecolor="#e23d11",
         markersize=marker_size,
         markevery=marker_frequency
 )
@@ -82,5 +82,5 @@ ax.text(4.1, 0.15, f"Время заряда {round(charge_time, 2)}c")
 ax.text(4.1, 0.05, f"Время разряда {round(discharge_time, 2)}c")
 ax.legend()
 
-fig.savefig("graph.svg")
+fig.savefig("graph.png")
 
