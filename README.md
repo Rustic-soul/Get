@@ -1,4 +1,4 @@
-# Проект "Get" (General Engineering Training)
+# "Get": (General Engineering Training)
 
 Автор: Шляпин Илья ([Rustic-soul](https://github.com/Rustic-soul))
 
